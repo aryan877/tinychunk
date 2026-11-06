@@ -1,0 +1,16 @@
+$ bun test
+bun test v1.2.23 (cf136713)
+
+test/windows.test.ts:
+(pass) returns no windows when the list is shorter than the size [0.06ms]
+(pass) rejects a size that is not a positive integer [0.05ms]
+
+test/chunk.test.ts:
+(pass) splits evenly [0.10ms]
+(pass) returns no chunks for an empty list [0.06ms]
+(pass) rejects a size that is not a positive integer [0.04ms]
+
+ 5 pass
+ 0 fail
+ 6 expect() calls
+Ran 5 tests across 2 files. [9.00ms]
